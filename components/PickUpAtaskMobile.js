@@ -1,14 +1,14 @@
 import styles from '../styles/PickUpATaskMobile.module.css'
 import { motion } from 'framer-motion'
-import { circleVariants, titleVariants, taskTitleVariants, photoVariants, dueVariants, applyBtnVariants } from '../animations/bookingAnimations.js'
+import { circleVariants, titleVariants, taskTitleVariants, photoVariants, dueVariants, applyBtnVariants, mobileTasksTitleVariants, mobileTaskCircleVariants } from '../animations/bookingAnimations.js'
 
 const PickUpAtaskMobile = () => {
   return (
     <motion.div className={styles.container} 
       initial="hidden"
       animate="visible">
-      <motion.div className={styles.circle} variants={circleVariants}></motion.div>
-      <motion.div className={styles.title} variants={titleVariants}>
+      <motion.div className={styles.circle} variants={mobileTaskCircleVariants}></motion.div>
+      <motion.div className={styles.title} variants={mobileTasksTitleVariants}>
         pick up a task
       </motion.div>
       <div className={styles.task1}>

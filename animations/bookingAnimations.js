@@ -520,3 +520,60 @@ export const nextBtnVariants = {
   }
 }
 
+// Mobile
+
+export const mobileTaskCircleVariants = {
+  hidden: {
+    opacity: 0
+  },
+  visible: {
+    opacity: 1,
+    scale: [0.5, 1.1, 1],
+    transition: {
+      delay: 2.2,
+      duration: 0.7,
+      type: 'spring',
+      mass: 0.7,
+      stiffness: 80,
+      velocity: 2
+    }
+  }
+}
+
+export const mobileTasksTitleVariants = {
+  hidden: {
+    opacity: 0,
+    y: -10
+  },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      delay: 2.2,
+      duration: 0.5,
+      type: 'spring',
+      mass: 0.7,
+      stiffness: 80,
+      velocity: 2
+    }
+  }
+}
+
+export const mobileTaskPhotoVariants = {
+  hidden: {
+    opacity: 0
+  },
+  visible: {
+    opacity: 1,
+    scale: [0.8, 1.05, 1],
+    transition: {
+      delay: 2.7,
+      duration: 0.7,
+      type: 'spring',
+      mass: 0.7,
+      stiffness: 80,
+      velocity: 2
+    }
+  }
+}
+
