@@ -10,8 +10,8 @@ export const purposeVariants = {
       delay: 0.2,
       duration: 0.5,
       type: 'spring',
-      mass: 0.4,
-      stiffness: 100,
+      mass: 0.7,
+      stiffness: 80,
       velocity: 2
     }
   }
@@ -30,8 +30,8 @@ export const circleVariants = {
       delay: 0.7,
       duration: 0.7,
       type: 'spring',
-      mass: 0.4,
-      stiffness: 100,
+      mass: 0.7,
+      stiffness: 80,
       velocity: 2
     }
   }
@@ -48,8 +48,8 @@ export const eventsCircleVariants = {
       delay: 0.7,
       duration: 0.7,
       type: 'spring',
-      mass: 0.4,
-      stiffness: 100,
+      mass: 0.7,
+      stiffness: 80,
       velocity: 2
     }
   }
@@ -69,8 +69,8 @@ export const titleVariants = {
       delay: 0.7,
       duration: 0.5,
       type: 'spring',
-      mass: 0.4,
-      stiffness: 100,
+      mass: 0.7,
+      stiffness: 80,
       velocity: 2
     }
   }
@@ -88,8 +88,8 @@ export const eventsTitleVariants = {
       delay: 0.7,
       duration: 0.5,
       type: 'spring',
-      mass: 0.4,
-      stiffness: 100,
+      mass: 0.7,
+      stiffness: 80,
       velocity: 2
     }
   }
@@ -107,8 +107,8 @@ export const textVariants = {
       delay: 1.2,
       duration: 0.5,
       type: 'spring',
-      mass: 0.4,
-      stiffness: 100,
+      mass: 0.7,
+      stiffness: 80,
       velocity: 2
     }
   }
@@ -126,8 +126,8 @@ export const applyBtnVariants = {
       delay: 1.7,
       duration: 0.5,
       type: 'spring',
-      mass: 0.4,
-      stiffness: 100,
+      mass: 0.7,
+      stiffness: 80,
       velocity: 2
     }
   }
@@ -147,8 +147,8 @@ export const taskTitleVariants = {
       delay: 2.2,
       duration: 0.5,
       type: 'spring',
-      mass: 0.4,
-      stiffness: 100,
+      mass: 0.7,
+      stiffness: 80,
       velocity: 2
     }
   }
@@ -165,8 +165,8 @@ export const photoVariants = {
       delay: 2.2,
       duration: 0.7,
       type: 'spring',
-      mass: 0.4,
-      stiffness: 100,
+      mass: 0.7,
+      stiffness: 80,
       velocity: 2
     }
   }
@@ -184,8 +184,8 @@ export const dueVariants = {
       delay: 2.2,
       duration: 0.5,
       type: 'spring',
-      mass: 0.4,
-      stiffness: 100,
+      mass: 0.7,
+      stiffness: 80,
       velocity: 2
     }
   }
@@ -203,8 +203,8 @@ export const viewMoreTasksBtnVariants = {
       delay: 2.9,
       duration: 0.5,
       type: 'spring',
-      mass: 0.4,
-      stiffness: 100,
+      mass: 0.7,
+      stiffness: 80,
       velocity: 2
     }
   }
@@ -224,8 +224,8 @@ export const eventTitleVariants = {
       delay: 3.4,
       duration: 0.5,
       type: 'spring',
-      mass: 0.4,
-      stiffness: 100,
+      mass: 0.7,
+      stiffness: 80,
       velocity: 2
     }
   }
@@ -242,8 +242,8 @@ export const eventPhotoVariants = {
       delay: 3.4,
       duration: 0.7,
       type: 'spring',
-      mass: 0.4,
-      stiffness: 100,
+      mass: 0.7,
+      stiffness: 80,
       velocity: 2
     }
   }
@@ -261,8 +261,8 @@ export const eventDateVariants = {
       delay: 3.4,
       duration: 0.5,
       type: 'spring',
-      mass: 0.4,
-      stiffness: 100,
+      mass: 0.7,
+      stiffness: 80,
       velocity: 2
     }
   }
@@ -280,8 +280,8 @@ export const viewMoreEventsBtnVariants = {
       delay: 4.1,
       duration: 0.5,
       type: 'spring',
-      mass: 0.4,
-      stiffness: 100,
+      mass: 0.7,
+      stiffness: 80,
       velocity: 2
     }
   }
@@ -301,8 +301,8 @@ export const guestNameVariants = {
       delay: 4.6,
       duration: 0.5,
       type: 'spring',
-      mass: 0.4,
-      stiffness: 100,
+      mass: 0.7,
+      stiffness: 80,
       velocity: 2
     }
   }
@@ -320,8 +320,8 @@ export const guestStatusVariants = {
       delay: 4.6,
       duration: 0.5,
       type: 'spring',
-      mass: 0.4,
-      stiffness: 100,
+      mass: 0.7,
+      stiffness: 80,
       velocity: 2
     }
   }
@@ -339,8 +339,8 @@ export const guestOccupationVariants = {
       delay: 4.6,
       duration: 0.5,
       type: 'spring',
-      mass: 0.4,
-      stiffness: 100,
+      mass: 0.7,
+      stiffness: 80,
       velocity: 2
     }
   }
@@ -357,8 +357,8 @@ export const guestPhotoVariants = {
       delay: 4.6,
       duration: 0.7,
       type: 'spring',
-      mass: 0.4,
-      stiffness: 100,
+      mass: 0.7,
+      stiffness: 80,
       velocity: 2
     }
   }
@@ -376,8 +376,8 @@ export const guestDateVariants = {
       delay: 4.7,
       duration: 0.5,
       type: 'spring',
-      mass: 0.4,
-      stiffness: 100,
+      mass: 0.7,
+      stiffness: 80,
       velocity: 2
     }
   }
@@ -395,8 +395,8 @@ export const viewMoreFellowGuestsBtnVariants = {
       delay: 5.3,
       duration: 0.5,
       type: 'spring',
-      mass: 0.4,
-      stiffness: 100,
+      mass: 0.7,
+      stiffness: 80,
       velocity: 2
     }
   }
@@ -416,8 +416,8 @@ export const needHelpVariants = {
       delay: 5.8,
       duration: 0.5,
       type: 'spring',
-      mass: 0.4,
-      stiffness: 100,
+      mass: 0.7,
+      stiffness: 80,
       velocity: 2
     }
   }
@@ -435,8 +435,8 @@ export const buddyIconVariants = {
       delay: 5.9,
       duration: 0.5,
       type: 'spring',
-      mass: 0.4,
-      stiffness: 100,
+      mass: 0.7,
+      stiffness: 80,
       velocity: 2
     }
   }
@@ -454,8 +454,8 @@ export const buddyPhotoVariants = {
       delay: 6,
       duration: 0.5,
       type: 'spring',
-      mass: 0.4,
-      stiffness: 100,
+      mass: 0.7,
+      stiffness: 80,
       velocity: 2
     }
   }
@@ -473,8 +473,8 @@ export const buddyNameVariants = {
       delay: 6.1,
       duration: 0.5,
       type: 'spring',
-      mass: 0.4,
-      stiffness: 100,
+      mass: 0.7,
+      stiffness: 80,
       velocity: 2
     }
   }
@@ -492,8 +492,8 @@ export const buddyEmailVariants = {
       delay: 6.2,
       duration: 0.5,
       type: 'spring',
-      mass: 0.4,
-      stiffness: 100,
+      mass: 0.7,
+      stiffness: 80,
       velocity: 2
     }
   }
@@ -513,8 +513,8 @@ export const nextBtnVariants = {
       delay: 6.7,
       duration: 0.5,
       type: 'spring',
-      mass: 0.4,
-      stiffness: 100,
+      mass: 0.7,
+      stiffness: 80,
       velocity: 2
     }
   }
