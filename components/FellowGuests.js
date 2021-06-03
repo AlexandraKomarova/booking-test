@@ -1,6 +1,6 @@
 import styles from '../styles/FellowGuests.module.css'
 import { motion } from 'framer-motion'
-import { eventsCircleVariants, eventsTitleVariants, guestNameVariants, guestStatusVariants, guestOccupationVariants, eventPhotoVariants, eventDateVariants } from '../animations/bookingAnimations.js'
+import { eventsCircleVariants, eventsTitleVariants, guestNameVariants, guestStatusVariants, guestOccupationVariants, eventPhotoVariants, eventDateVariants, guestPhotoVariants, guestDateVariants } from '../animations/bookingAnimations.js'
 
 const FellowGuests = () => {
   return (
@@ -24,8 +24,8 @@ const FellowGuests = () => {
           </motion.div>
         </div>
         <div className={styles.photoAndDueWrapper}>
-          <motion.div className={styles.photo1} variants={eventPhotoVariants}></motion.div>
-          <motion.div className={styles.due} variants={eventDateVariants}>
+          <motion.div className={styles.photo1} variants={guestPhotoVariants}></motion.div>
+          <motion.div className={styles.due} variants={guestDateVariants}>
             <span className={styles.dueDate}>6/25-7/12</span>
           </motion.div>
         </div>
@@ -43,8 +43,8 @@ const FellowGuests = () => {
           </motion.div>
         </div>
         <div className={styles.photoAndDueWrapper}>
-          <motion.div className={styles.photo2} variants={eventPhotoVariants}></motion.div>
-          <motion.div className={styles.due} variants={eventDateVariants}>
+          <motion.div className={styles.photo2} variants={guestPhotoVariants}></motion.div>
+          <motion.div className={styles.due} variants={guestDateVariants}>
             <span className={styles.dueDate}>6/14-6/29</span>
           </motion.div>
         </div>
@@ -62,8 +62,8 @@ const FellowGuests = () => {
           </motion.div>
         </div>
         <div className={styles.photoAndDueWrapper}>
-          <motion.div className={styles.photo3} variants={eventPhotoVariants}></motion.div>
-          <motion.div className={styles.due} variants={eventDateVariants}>
+          <motion.div className={styles.photo3} variants={guestPhotoVariants}></motion.div>
+          <motion.div className={styles.due} variants={guestDateVariants}>
             <span className={styles.dueDate}>7/03-7/15</span>
           </motion.div>
         </div>
