@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Spinnaker&display=swap');
+
+.container {
+  margin-top: 16vh;
+  width: 40vw;
+  display: grid;
+  grid-template: 27px 1fr / 27px repeat(3, 11vw);
+  grid-gap: 15px;
+}
+
+.circle {
+  grid-area: 1/1/2/2;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  background-color: var(--pink);
+  border: 5px solid var(--purple);
+}
+
+.title {
+  grid-area: 1/2/2/-1;
+  font-family: 'Spinnaker', sans-serif;
+  font-size: 19px;
+  align-self: center;
+}
+
+.task1, .task2, .task3 {
+  display: grid;
+  grid-template: 1fr min-content min-content/ 1fr;
+  grid-row-gap: 10px;
+}
+
+.photo1, .photo2, .photo3 {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  border: 1.5px solid var(--purple);
+  background-size: cover;
+  background-position: center;
+}
+
+.photoAndDueWrapper {
+  display: grid;
+  grid-template: min-content min-content / min-content;
+  grid-row-gap: 10px;
+}
+
+.taskTitle {
+  font-size: 14px;
+  opacity: 95%;
+}
+
+.due {
+  justify-self: center;
+}
+
+.dueWord {
+  font-family: 'Spinnaker', sans-serif;
+  font-size: 14px;
+  opacity: 80%;
+}
+
+.dueDate {
+  opacity: 60%;
+  font-size: 14px;
+}
+
+.task1 {
+  grid-area: 2/2/-1/3;
+}
+
+.photo1 {
+  background-image: url(../public/kate.jpg);
+}
+
+.task2 {
+  grid-area: 2/3/-1/4;
+}
+
+.photo2 {
+  background-image: url(../public/sauna.jpg);
+}
+
+.task3 {
+  grid-area: 2/4/-1/-1;
+}
+
+.photo3 {
+  background-image: url(../public/strawberries.jpg);
+}

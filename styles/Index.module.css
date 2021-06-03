@@ -1,0 +1,12 @@
+/* MOBILE */
+@media only screen and (orientation: portrait) {
+  .desktop {
+    display: none;
+  }
+}
+
+@media only screen and (orientation: landscape) {
+  .mobile {
+    display: none;
+  }
+}

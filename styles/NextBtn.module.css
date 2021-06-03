@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
+
+.container {
+  display: grid;
+  grid-template: min-content / min-content;
+}
+
+.greenHalfCircleBottom, .next {
+  grid-area: 1/1/-1/-1;
+}
+
+.greenHalfCircleBottom {
+  transform: rotateX(180deg);
+}
+
+.next {
+  justify-self: center;
+  margin-top: 8vh;
+  font-size: 19px;
+  letter-spacing: 0.3px;
+  font-weight: 500;
+  z-index: 1;
+}

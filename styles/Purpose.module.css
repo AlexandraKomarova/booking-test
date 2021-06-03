@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+.container {
+  display: grid;
+  grid-template: min-content / min-content;
+}
+
+.greenCircleTop, .purpose {
+  grid-area: 1/1/-1/-1;
+}
+
+.purpose {
+  justify-self: center;
+  margin-top: 3.5vh;
+  font-family: 'Yeseva One', cursive;
+  font-size: 18px;
+  letter-spacing: 0.3px;
+}

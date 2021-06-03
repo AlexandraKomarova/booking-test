@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Spinnaker&display=swap');
+
+.container {
+  margin-top: 15vh;
+  width: 40vw;
+  display: grid;
+  grid-template: 27px 1fr / 27px 1fr;
+  grid-gap: 10px;
+}
+
+.circle {
+  grid-area: 1/1/2/2;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  background-color: var(--pink);
+  border: 5px solid var(--purple);
+}
+
+.title {
+  grid-area: 1/2/2/-1;
+  font-family: 'Spinnaker', sans-serif;
+  font-size: 19px;
+  align-self: center;
+}
+
+.text {
+  grid-area: 2/2/-1/-1;
+}

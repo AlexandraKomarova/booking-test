@@ -1,9 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+:root {
+  --purple: #351341;
+  --green: rgba(195, 235, 211, 0.5);
+  --lilac: rgba(247, 231, 243, 0.6);
+  --pink: rgba(236, 188, 210, 0.5);
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: 'Red Hat Display', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: var(--purple);
+  overflow-x: hidden;
 }
 
 a {

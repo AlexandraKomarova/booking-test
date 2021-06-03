@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
+
+.btn {
+  justify-self: end;
+  margin-right: 40px;
+  width: 30vw;
+  height: 8vh;
+  background-color: var(--lilac);
+  border-radius: 70px 100px 0 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 500;
+}
