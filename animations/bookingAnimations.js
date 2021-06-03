@@ -9,6 +9,10 @@ export const purposeVariants = {
     transition: {
       delay: 0.2,
       duration: 0.5,
+      type: 'spring',
+      mass: 0.4,
+      stiffness: 100,
+      velocity: 2
     }
   }
 }
@@ -64,6 +68,10 @@ export const titleVariants = {
     transition: {
       delay: 0.7,
       duration: 0.5,
+      type: 'spring',
+      mass: 0.4,
+      stiffness: 100,
+      velocity: 2
     }
   }
 }
@@ -79,6 +87,10 @@ export const eventsTitleVariants = {
     transition: {
       delay: 0.7,
       duration: 0.5,
+      type: 'spring',
+      mass: 0.4,
+      stiffness: 100,
+      velocity: 2
     }
   }
 }
@@ -94,6 +106,10 @@ export const textVariants = {
     transition: {
       delay: 1.2,
       duration: 0.5,
+      type: 'spring',
+      mass: 0.4,
+      stiffness: 100,
+      velocity: 2
     }
   }
 }
@@ -109,6 +125,10 @@ export const applyBtnVariants = {
     transition: {
       delay: 1.7,
       duration: 0.5,
+      type: 'spring',
+      mass: 0.4,
+      stiffness: 100,
+      velocity: 2
     }
   }
 }
@@ -126,6 +146,10 @@ export const taskTitleVariants = {
     transition: {
       delay: 2.2,
       duration: 0.5,
+      type: 'spring',
+      mass: 0.4,
+      stiffness: 100,
+      velocity: 2
     }
   }
 }
@@ -159,6 +183,10 @@ export const dueVariants = {
     transition: {
       delay: 2.2,
       duration: 0.5,
+      type: 'spring',
+      mass: 0.4,
+      stiffness: 100,
+      velocity: 2
     }
   }
 }
@@ -174,6 +202,10 @@ export const viewMoreTasksBtnVariants = {
     transition: {
       delay: 2.9,
       duration: 0.5,
+      type: 'spring',
+      mass: 0.4,
+      stiffness: 100,
+      velocity: 2
     }
   }
 }
@@ -191,6 +223,10 @@ export const eventTitleVariants = {
     transition: {
       delay: 3.4,
       duration: 0.5,
+      type: 'spring',
+      mass: 0.4,
+      stiffness: 100,
+      velocity: 2
     }
   }
 } 
@@ -224,6 +260,10 @@ export const eventDateVariants = {
     transition: {
       delay: 3.4,
       duration: 0.5,
+      type: 'spring',
+      mass: 0.4,
+      stiffness: 100,
+      velocity: 2
     }
   }
 }
@@ -239,6 +279,10 @@ export const viewMoreEventsBtnVariants = {
     transition: {
       delay: 4.1,
       duration: 0.5,
+      type: 'spring',
+      mass: 0.4,
+      stiffness: 100,
+      velocity: 2
     }
   }
 }
@@ -256,6 +300,10 @@ export const guestNameVariants = {
     transition: {
       delay: 4.6,
       duration: 0.5,
+      type: 'spring',
+      mass: 0.4,
+      stiffness: 100,
+      velocity: 2
     }
   }
 }
@@ -271,6 +319,10 @@ export const guestStatusVariants = {
     transition: {
       delay: 4.6,
       duration: 0.5,
+      type: 'spring',
+      mass: 0.4,
+      stiffness: 100,
+      velocity: 2
     }
   }
 }
@@ -286,6 +338,10 @@ export const guestOccupationVariants = {
     transition: {
       delay: 4.6,
       duration: 0.5,
+      type: 'spring',
+      mass: 0.4,
+      stiffness: 100,
+      velocity: 2
     }
   }
 }
@@ -319,6 +375,10 @@ export const guestDateVariants = {
     transition: {
       delay: 4.7,
       duration: 0.5,
+      type: 'spring',
+      mass: 0.4,
+      stiffness: 100,
+      velocity: 2
     }
   }
 }
@@ -334,6 +394,10 @@ export const viewMoreFellowGuestsBtnVariants = {
     transition: {
       delay: 5.3,
       duration: 0.5,
+      type: 'spring',
+      mass: 0.4,
+      stiffness: 100,
+      velocity: 2
     }
   }
 }
@@ -351,6 +415,10 @@ export const needHelpVariants = {
     transition: {
       delay: 5.8,
       duration: 0.5,
+      type: 'spring',
+      mass: 0.4,
+      stiffness: 100,
+      velocity: 2
     }
   }
 }
@@ -366,6 +434,10 @@ export const buddyIconVariants = {
     transition: {
       delay: 5.9,
       duration: 0.5,
+      type: 'spring',
+      mass: 0.4,
+      stiffness: 100,
+      velocity: 2
     }
   }
 }
@@ -381,6 +453,10 @@ export const buddyPhotoVariants = {
     transition: {
       delay: 6,
       duration: 0.5,
+      type: 'spring',
+      mass: 0.4,
+      stiffness: 100,
+      velocity: 2
     }
   }
 }
@@ -396,6 +472,10 @@ export const buddyNameVariants = {
     transition: {
       delay: 6.1,
       duration: 0.5,
+      type: 'spring',
+      mass: 0.4,
+      stiffness: 100,
+      velocity: 2
     }
   }
 }
@@ -411,6 +491,10 @@ export const buddyEmailVariants = {
     transition: {
       delay: 6.2,
       duration: 0.5,
+      type: 'spring',
+      mass: 0.4,
+      stiffness: 100,
+      velocity: 2
     }
   }
 }
@@ -428,6 +512,10 @@ export const nextBtnVariants = {
     transition: {
       delay: 6.7,
       duration: 0.5,
+      type: 'spring',
+      mass: 0.4,
+      stiffness: 100,
+      velocity: 2
     }
   }
 }
