@@ -298,7 +298,7 @@ export const guestNameVariants = {
     opacity: 1,
     x: 0,
     transition: {
-      delay: 4.2,
+      delay: 4,
       duration: 0.5,
       type: 'spring',
       mass: 0.7,
@@ -317,7 +317,7 @@ export const guestStatusVariants = {
     opacity: 1,
     x: 0,
     transition: {
-      delay: 4.2,
+      delay: 4,
       duration: 0.5,
       type: 'spring',
       mass: 0.7,
@@ -336,7 +336,7 @@ export const guestOccupationVariants = {
     opacity: 1,
     x: 0,
     transition: {
-      delay: 4.2,
+      delay: 4,
       duration: 0.5,
       type: 'spring',
       mass: 0.7,
@@ -354,7 +354,7 @@ export const guestPhotoVariants = {
     opacity: 1,
     scale: [0.8, 1.05, 1],
     transition: {
-      delay: 4.2,
+      delay: 4,
       duration: 0.7,
       type: 'spring',
       mass: 0.7,
@@ -373,7 +373,7 @@ export const guestDateVariants = {
     opacity: 1,
     x: 0,
     transition: {
-      delay: 4.2,
+      delay: 4,
       duration: 0.5,
       type: 'spring',
       mass: 0.7,
@@ -392,7 +392,7 @@ export const viewMoreFellowGuestsBtnVariants = {
     opacity: 1,
     x: 0,
     transition: {
-      delay: 4.7,
+      delay: 4.5,
       duration: 0.5,
       type: 'spring',
       mass: 0.7,
@@ -413,7 +413,7 @@ export const needHelpVariants = {
     opacity: 1,
     x: 0,
     transition: {
-      delay: 5.2,
+      delay: 5,
       duration: 0.5,
       type: 'spring',
       mass: 0.7,
@@ -432,7 +432,7 @@ export const buddyIconVariants = {
     opacity: 1,
     y: 0,
     transition: {
-      delay: 5.3,
+      delay: 5.1,
       duration: 0.5,
       type: 'spring',
       mass: 0.7,
@@ -451,7 +451,7 @@ export const buddyPhotoVariants = {
     opacity: 1,
     x: 0,
     transition: {
-      delay: 5.4,
+      delay: 5.2,
       duration: 0.5,
       type: 'spring',
       mass: 0.7,
@@ -470,7 +470,7 @@ export const buddyNameVariants = {
     opacity: 1,
     x: 0,
     transition: {
-      delay: 5.5,
+      delay: 5.3,
       duration: 0.5,
       type: 'spring',
       mass: 0.7,
@@ -489,7 +489,7 @@ export const buddyEmailVariants = {
     opacity: 1,
     x: 0,
     transition: {
-      delay: 5.6,
+      delay: 5.4,
       duration: 0.5,
       type: 'spring',
       mass: 0.7,
@@ -510,7 +510,7 @@ export const nextBtnVariants = {
     opacity: 1,
     y: 0,
     transition: {
-      delay: 6.1,
+      delay: 5.8,
       duration: 0.5,
       type: 'spring',
       mass: 0.7,
